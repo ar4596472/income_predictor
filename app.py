@@ -1,7 +1,9 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
+from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
+import joblib
 
 
 # Load the dataset (cached using st.cache)
