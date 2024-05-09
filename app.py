@@ -46,7 +46,7 @@ def main():
 
     # Display sample data
     st.subheader('Sample Data:')
-    st.write(df.head(10))  # Displaying the first 10 rows of the dataset
+    st.write(df.head(2))  # Displaying the first 10 rows of the dataset
 
     # Define selected features for input
     selected_features = ['age', 'education', 'education.num', 'marital.status', 'capital.gain', 'capital.loss', 'hours.per.week', 'income']
