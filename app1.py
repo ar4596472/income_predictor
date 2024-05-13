@@ -93,7 +93,8 @@ def main():
         age = input_features['age']
         hours_per_week = input_features['hours.per.week']
 
-        if 0 <= age <= 15 and hours_per_week == 0:
+        if 0 <= age <= 15 or 0<= hours_per_week <= 6
+            st.write("your age is :", age)
             st.write("You don't earn.")
         else:
             # Make predictions when user clicks the 'Predict Income' button
