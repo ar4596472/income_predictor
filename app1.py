@@ -66,7 +66,7 @@ def main():
     for feature in X.columns:
         if feature != 'income':
             if feature == 'age':
-                age_option = st.select_slider('Select age', options=list(range(1, 101)), value=35)
+                age_option = st.select_slider('Select age', options=list(range(10, 60)), value=35)
                 input_features[feature] = age_option
             elif feature == 'hours.per.week':
                 hours_option = st.select_slider('Select hours per week', options=list(range(0, 101)), value=40)
